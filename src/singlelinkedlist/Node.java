@@ -11,8 +11,8 @@ package singlelinkedlist;
  * @param <T>
  */
 public class Node <T> {
-    T val;
-    Node next;
+    public T val;
+    public Node next;
 
     public Node(T val) {
         this.val = val;
